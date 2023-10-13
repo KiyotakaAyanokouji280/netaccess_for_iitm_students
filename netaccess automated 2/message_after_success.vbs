@@ -1,0 +1,1 @@
+x=msgbox("Authentication completed. Netaccess granted for this device.",64,"Success")
