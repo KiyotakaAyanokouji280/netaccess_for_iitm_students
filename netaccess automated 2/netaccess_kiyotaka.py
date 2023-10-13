@@ -7,8 +7,8 @@ import subprocess
 try:
     driver = webdriver.Chrome()
 
-    username = "ee22b083"
-    password = "?V,.@'(En8c"
+    username = "your username"
+    password = "your password"
     driver.get("https://netaccess.iitm.ac.in/account/login")
 
     user = driver.find_element(By.XPATH, "/html/body/div[2]/div/form/div[1]/input")
